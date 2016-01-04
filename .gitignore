@@ -4,6 +4,9 @@ traj.h5
 *~
 img*.jpg
 movies/*.h5
+movies/*.mp4
+movies/*.dat
+
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
