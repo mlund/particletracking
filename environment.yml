@@ -10,3 +10,4 @@ dependencies:
     - trackpy
     - pims
     - jupyter
+    - ffmpeg
