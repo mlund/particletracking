@@ -1,0 +1,12 @@
+name: particletracking
+channels:
+    - conda-forge
+dependencies:
+    - python=2
+    - numpy
+    - scipy
+    - pandas
+    - matplotlib
+    - trackpy
+    - pims
+    - jupyter
