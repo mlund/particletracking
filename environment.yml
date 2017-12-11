@@ -3,11 +3,12 @@ channels:
     - conda-forge
 dependencies:
     - python=2
-    - numpy
-    - scipy
-    - pandas
-    - matplotlib
-    - trackpy
-    - pims
+    - numpy=1.13
+    - scipy=1.0
+    - pandas=0.21
+    - matplotlib=2.1
+    - trackpy=0.3.3
+    - pims=0.4
     - jupyter
-    - ffmpeg
+    - notebook
+    - ffmpeg=3.2

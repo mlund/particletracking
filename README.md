@@ -1,24 +1,15 @@
+[![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/mlund/particletracking/master?filepath=track.ipynb)
+
 # Particle Tracking
 
 Notebook for analysing trajectories from mechanical particle simulator using image analysis.
 
-## Requirements
+## Instructions
 
-Install via Anaconda:
+Using miniconda:
 
-- `scipy`
-- `matplotlib`
-- `pandas`
-- `trackpy`
-
-Command line tools:
-
-- `ffmpeg`
-
-## Environment
-
-Create a copy of the developer’s environment from the environment.yml file:
-- conda env create -f environment.yml
-
-Activate the new environment:
-- source activate particletracking
+~~~ bash
+conda env create -f environment.yml
+source activate particletracking
+jupyter-notebook track.ipynb
+~~~
