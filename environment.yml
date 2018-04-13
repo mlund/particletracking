@@ -1,15 +1,16 @@
 name: particletracking
 channels:
-    - defaults
     - conda-forge
+    - teokem
 dependencies:
-    - python=2.7
+    - python=3.6.5
     - numpy=1.13
     - scipy=1.0
-    - pandas=0.21
+    - pandas=0.22
     - matplotlib=2.1
-    - trackpy=0.3.3
-    - pims=0.4
+    - trackpy=0.4
+    - pims=0.4.1
     - jupyter=1.0
-    - notebook=5.2
-    - ffmpeg=3.2
+    - notebook=5.4.1
+    - ffmpeg=3.4.2
+    - faunus
