@@ -26,7 +26,7 @@ If you have little experience with Python or shell programming, the following tw
 
    ```bash
    conda env create -f environment.yml
-   source activate particletracking
+   conda activate particletracking
    ```
 Instructions for Windows: 
 1. Install [miniconda3](https://conda.io/miniconda.html).
@@ -40,7 +40,7 @@ Instructions for Windows:
 
    ```bash
    conda env create -f environment.yml
-   activate particletracking
+   conda activate particletracking
    ```
 [Further Information](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
 
