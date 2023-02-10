@@ -18,6 +18,14 @@ If you have little experience with Python or shell programming, the following tw
 
 ## Preparation before the lab
 
+The following details how to install Python and the required packages on your
+computer.
+**This is optional** and you may instead click on the **launch binder** link above which
+will launch the Notebook in the cloud. If using this method _remember to save_ your Notebook
+often, as it will otherwise be lost of you loose internet connection.
+
+### On macOS and Linux
+
 1. Install [miniconda3](https://conda.io/miniconda.html).
 2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material
    (this github repository) and unzip.
@@ -27,8 +35,9 @@ If you have little experience with Python or shell programming, the following tw
    ```bash
    conda env create -f environment.yml
    source activate particletracking
+   jupyter-lab
    ```
-Instructions for Windows: 
+### On Windows
 1. Install [miniconda3](https://conda.io/miniconda.html).
 2. [Download](https://github.com/mlund/particletracking/archive/master.zip) the lab material (this github repository)
    and unzip.
@@ -41,12 +50,6 @@ Instructions for Windows:
    ```bash
    conda env create -f environment.yml
    activate particletracking
+   jupyter-lab
    ```
 [Further Information](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
-
-## How to launch the notebooks
-
-~~~ bash
-jupyter-notebook track.ipynb
-jupyter-notebook mc/montecarlo.ipynb
-~~~
