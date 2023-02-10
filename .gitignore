@@ -65,3 +65,9 @@ docs/_build/
 
 # PyBuilder
 target/
+
+*.gro
+*.xtc
+*.pqr
+*.pdf
+*.dat
