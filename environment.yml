@@ -12,6 +12,6 @@ dependencies:
     - notebook=6.5
     - ffmpeg=5
     - mdtraj=1.9
-    - faunus
+    - faunus=2.8
     - jupyterlab=3.5
     - jupyterlab_widgets=3.0

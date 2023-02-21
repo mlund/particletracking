@@ -49,7 +49,7 @@ often, as it will otherwise be lost of you loose internet connection.
 
    ```bash
    conda env create -f environment.yml
-   activate particletracking
+   conda activate particletracking
    jupyter-lab
    ```
 [Further Information](https://conda.io/docs/user-guide/tasks/manage-environments.html#creating-an-environment-from-an-environment-yml-file)
