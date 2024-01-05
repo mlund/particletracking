@@ -1,5 +1,5 @@
 mc/faunus
-mc/*.json
+montecarlo/*.json
 images
 .ipynb_checkpoints
 traj.h5
@@ -9,6 +9,7 @@ movies/*.mp4
 movies/*.dat
 .DS_Store
 *.bak
+legacyrecord.json
 
 
 # Byte-compiled / optimized / DLL files

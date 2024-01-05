@@ -4,7 +4,7 @@
 
 This lab is based on two [Jupyter Notebooks](http://jupyter.org):
 - `track.ipynb`: Notebook for analysing trajectories from mechanical particle simulator using image analysis;
-- `mc/montecarlo.ipynb`: Notebook for running MC simulations of a model system of the mechanical particle simulator.
+- `montecarlo/montecarlo.ipynb`: Notebook for running MC simulations of a model system of the mechanical particle simulator.
 
 ## Prerequisites
 
