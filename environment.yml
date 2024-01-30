@@ -20,5 +20,5 @@ dependencies:
     - scipy=1
     - trackpy=0.6
     - pip:
-	jupyterlab-code-formatter
+        jupyterlab-code-formatter
     
