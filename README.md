@@ -9,17 +9,29 @@ This lab is based on two [Jupyter Notebooks](http://jupyter.org):
 ## Prerequisites
 
 - No prior knowledge in Python is required, but familiarity with programming concepts is helpful.
-- A laptop connected to the internet (eduroam, for example) and running Unix, MacOS, or Windows and with Anaconda installed, see below.
+- A laptop connected to the internet (eduroam, for example) and running Unix, MacOS, or Windows.
 
 If you have little experience with Python or shell programming, the following two tutorials may be helpful:
 
 - https://swcarpentry.github.io/shell-novice
 - https://swcarpentry.github.io/python-novice-inflammation
 
-## Preparation before the lab
+# Installation
 
-The following details how to install Python and the required packages on your
-computer.
+## Using Docker
+
+We provide a `Docker` file that will install all required packages into a virtual environment
+that runs on any machine capable of running [Docker Desktop](https://www.docker.com/products/docker-desktop).
+Build and run with
+~~~ console
+docker build -t particletracking - < Dockerfile
+docker run -it -p 8888:8888 particletracking
+~~~
+Copy-paste the generated url into a web-browser.
+
+## Using Anaconda
+
+The following details how to install Python and the required packages.
 **This is optional** and you may instead click on the **launch binder** link above which
 will launch the Notebook in the cloud. If using this method _remember to save_ your Notebook
 often, as it will otherwise be lost of you loose internet connection.
