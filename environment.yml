@@ -1,6 +1,4 @@
 name: particletracking
-channels:
-    - conda-forge
 dependencies:
     - black
     - cryptography
